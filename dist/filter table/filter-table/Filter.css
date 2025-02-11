@@ -1,0 +1,70 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header row */
+  table th {
+    background-color: #6e400b;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table rows */
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Alternating row colors for better readability */
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Highlight header row */
+  table .header {
+    background-color: #6b3a1b;
+    color: white;
+  }
+  
+  /* Adjust text alignment */
+  table td {
+    text-align: left;
+  }
+  
+  /* Add a heading style */
+  h2 {
+    color: rgb(64, 7, 7);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  #myInput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  

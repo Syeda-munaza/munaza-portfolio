@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(32, 50, 66);
+    color: white;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #1e1919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.container h1 span{
+    color: chocolate;
+    font-size: 50px;
+}
+img{
+    cursor: pointer;
+}
+button{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 15px;
+   
+    cursor: pointer;
+    color: rgb(216, 209, 203);
+    background-color: rgb(182, 56, 10);
+}
